@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "id": "oj",
+      "name": "刷题 OJ",
+      "icon": "💻",
+      "links": [
+        {"name": "洛谷", "url": "https://www.luogu.com.cn", "desc": "国内最大信奥OJ平台"},
+        {"name": "AcWing", "url": "https://www.acwing.com", "desc": "算法课程+OJ"},
+        {"name": "Codeforces", "url": "https://codeforces.com", "desc": "全球顶级算法竞赛"},
+        {"name": "AtCoder", "url": "https://atcoder.jp", "desc": "日本算法竞赛平台"},
+        {"name": "LibreOJ", "url": "https://loj.ac", "desc": "开放评测平台"},
+        {"name": "牛客网", "url": "https://www.nowcoder.com", "desc": "竞赛+求职训练"},
+        {"name": "Vjudge", "url": "https://vjudge.net", "desc": "多OJ聚合虚拟评测"},
+        {"name": "蓝桥杯", "url": "https://www.lanqiao.cn", "desc": "蓝桥杯大赛官网"},
+        {"name": "计蒜客", "url": "https://www.jisuanke.com", "desc": "信息学学习平台"},
+        {"name": "ACGO", "url": "https://www.acgo.cn", "desc": "算法竞赛训练社区"},
+        {"name": "OpenJudge", "url": "https://openjudge.cn", "desc": "北大开放评测"},
+        {"name": "POJ（北大）", "url": "http://poj.org", "desc": "经典英文OJ"},
+        {"name": "HDU（杭电）", "url": "https://acm.hdu.edu.cn", "desc": "杭电OJ"},
+        {"name": "SPOJ", "url": "https://www.spoj.com", "desc": "国际经典题库"},
+        {"name": "QOJ", "url": "https://qoj.ac", "desc": "高质量竞赛题库"}
+      ]
+    },
+    {
+      "id": "learn",
+      "name": "学习资源",
+      "icon": "📚",
+      "links": [
+        {"name": "OI Wiki", "url": "https://oi-wiki.org", "desc": "信奥知识百科"},
+        {"name": "CP-Algorithms", "url": "https://cp-algorithms.com", "desc": "算法详解（英文）"},
+        {"name": "C++ Reference", "url": "https://en.cppreference.com", "desc": "C++标准库参考"},
+        {"name": "USACO Guide", "url": "https://usaco.guide", "desc": "USACO训练指南"},
+        {"name": "B站信奥教程", "url": "https://www.bilibili.com", "desc": "B站搜索信奥教程"},
+        {"name": "中国大学MOOC", "url": "https://www.icourse163.org", "desc": "算法与数据结构课程"},
+        {"name": "51AC 信奥教学", "url": "https://51ac.com.cn", "desc": "系统化信奥教学"},
+        {"name": "洛谷题单广场", "url": "https://www.luogu.com.cn/problem/list", "desc": "分类题单合集"}
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "在线工具",
+      "icon": "🛠️",
+      "links": [
+        {"name": "在线C++编译器", "url": "https://godbolt.org", "desc": "Compiler Explorer多版本"},
+        {"name": "GDB在线调试", "url": "https://www.onlinegdb.com", "desc": "在线C++调试环境"},
+        {"name": "图论可视化", "url": "https://visualgo.net/en/graphds", "desc": "算法动画演示"},
+        {"name": "CSAcademy", "url": "https://csacademy.com/app/graph_editor", "desc": "图论图形编辑器"},
+        {"name": "OIerDb", "url": "https://oier.baoshuo.dev", "desc": "选手数据库查询"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>提交资源 - 信奥导航站</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Top Bar -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <a href="index.html" style="color:#fff;text-decoration:none;">
+          <h1>🏆 信奥导航站</h1>
+        </a>
+        <span class="tagline">信息学竞赛 · OI 资源一站式导航</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav id="nav-bar" class="site-nav"></nav>
+
+  <main class="container" style="padding-top:32px;">
+    <div class="submit-form">
+      <h2>📤 提交资源</h2>
+      <p style="font-size:13px;color:#86909c;margin-bottom:24px;">推荐优质信奥资源给导航站，审核通过后展示。以下都在建设中，默认只支持"提交网址"。</p>
+
+      <div id="submit-msg" class="status-msg"></div>
+
+      <form id="submit-form">
+        <!-- 提交类型 -->
+        <div class="form-group">
+          <label for="submit-type">提交类型</label>
+          <select id="submit-type" required>
+            <option value="link">🔗 提交网址</option>
+          </select>
+        </div>
+
+        <!-- 名称 -->
+        <div class="form-group">
+          <label for="submit-name">资源名称 *</label>
+          <input type="text" id="submit-name" placeholder="如：洛谷、OI Wiki..." required maxlength="50">
+        </div>
+
+        <!-- 网址 -->
+        <div class="form-group">
+          <label for="submit-url">网址 *</label>
+          <input type="url" id="submit-url" placeholder="https://..." required>
+        </div>
+
+        <!-- 描述 -->
+        <div class="form-group">
+          <label for="submit-desc">简短描述</label>
+          <input type="text" id="submit-desc" placeholder="一句话介绍这个资源（选填）" maxlength="100">
+        </div>
+
+        <!-- 分类 -->
+        <div class="form-group">
+          <label for="submit-category">所属分类</label>
+          <select id="submit-category">
+            <option value="">自动判断</option>
+            <option value="oj">刷题 OJ</option>
+            <option value="policy">官网政策</option>
+            <option value="learn">学习资源</option>
+            <option value="tools">在线工具 & 题解</option>
+            <option value="community">社区讨论</option>
+            <option value="gzh">信奥公众号</option>
+          </select>
+        </div>
+
+        <!-- 提交按钮 -->
+        <button type="submit" class="btn btn-primary" style="width:100%;padding:12px;font-size:15px;">提交审核</button>
+      </form>
+
+      <div style="margin-top:24px;padding-top:16px;border-top:1px solid #e5e6eb;font-size:12px;color:#86909c;">
+        <p>💡 <strong>审核说明：</strong></p>
+        <ul style="padding-left:16px;margin-top:6px;line-height:1.8;">
+          <li>提交后需等待管理员审核</li>
+          <li>仅收录与信息学竞赛相关的优质资源</li>
+          <li>商业推广、低质量内容将不予通过</li>
+          <li>通过后资源将显示在导航站对应分类中</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:24px;">
+      <a href="index.html" class="btn btn-outline">← 返回导航站</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>信奥导航站 · OIerLink | 信息学竞赛资源一站式导航</p>
+    <div class="footer-links">
+      <a href="https://mp.weixin.qq.com" target="_blank" rel="noopener">by「 公众号·莫要玩」</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

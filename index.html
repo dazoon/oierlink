@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="信奥导航站(OIerLink) - 信息学竞赛一站式资源导航：刷题OJ、学习资源、赛事官网、选手排名、信奥新闻聚合">
+<meta name="keywords" content="OI,信息学竞赛,CSP,NOI,NOIP,洛谷,AcWing,Codeforces,信奥,信奥导航,OIer">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+<title>信奥导航站 - OIerLink | 信息学竞赛资源导航</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Top Bar -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <h1>🏆 信奥导航站</h1>
+        <span class="tagline">信息学竞赛 · OI 资源一站式导航</span>
+      </div>
+      <form id="search-form" class="search-box" role="search" autocomplete="off">
+        <input id="search-input" type="search" class="search-field" placeholder="搜索全站链接和资源..." autocomplete="off">
+        <button type="submit">🔍 搜索</button>
+      </form>
+    </div>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav id="nav-bar" class="site-nav"></nav>
+
+  <!-- Main Container -->
+  <main class="container">
+
+    <!-- 添加链接表单（默认隐藏） -->
+    <div id="add-link-form" class="card" style="display:none;margin-bottom:16px;">
+      <div class="card-header">
+        <h3>📌 添加自定义链接（仅自己可见）</h3>
+        <button id="btn-cancel-add" class="btn btn-outline btn-sm">取消</button>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end;">
+        <div class="form-group" style="flex:2;min-width:160px;margin-bottom:0;">
+          <label for="my-link-name" style="font-size:12px;">名称 *</label>
+          <input type="text" id="my-link-name" placeholder="如：我的博客" maxlength="30">
+        </div>
+        <div class="form-group" style="flex:3;min-width:200px;margin-bottom:0;">
+          <label for="my-link-url" style="font-size:12px;">网址 *</label>
+          <input type="url" id="my-link-url" placeholder="https://">
+        </div>
+        <div class="form-group" style="flex:2;min-width:140px;margin-bottom:0;">
+          <label for="my-link-cat" style="font-size:12px;">分类</label>
+          <select id="my-link-cat">
+            <option value="oj">刷题 OJ</option>
+            <option value="learn">学习资源</option>
+            <option value="tools">在线工具 & 题解</option>
+            <option value="other">其他</option>
+          </select>
+        </div>
+        <button id="btn-save-link" class="btn btn-primary" style="flex-shrink:0;">保存</button>
+      </div>
+      <div id="add-link-msg" style="font-size:12px;margin-top:8px;color:#86909c;display:none;"></div>
+    </div>
+
+    <!-- ① 赛事倒计时 -->
+    <div class="card">
+      <div class="card-header">
+        <h3>⏳ 赛事倒计时</h3>
+        <button id="btn-add-event" class="btn btn-outline btn-sm">+ 添加赛事</button>
+      </div>
+      <div id="countdown-container"></div>
+      <div id="add-event-row" style="margin-top:12px;display:none;align-items:flex-end;gap:8px;flex-wrap:wrap;padding:12px 0 0 0;border-top:1px dashed #e5e6eb;">
+        <div class="form-group" style="flex:2;min-width:120px;margin-bottom:0;">
+          <label for="event-name" style="font-size:12px;">赛事名称</label>
+          <input type="text" id="event-name" placeholder="如：校赛" maxlength="20" style="padding:6px 10px;font-size:13px;">
+        </div>
+        <div class="form-group" style="flex:2;min-width:140px;margin-bottom:0;">
+          <label for="event-date" style="font-size:12px;">日期</label>
+          <input type="date" id="event-date" style="padding:6px 10px;font-size:13px;">
+        </div>
+        <div class="form-group" style="flex:1;min-width:90px;margin-bottom:0;">
+          <label for="event-time" style="font-size:12px;">时间</label>
+          <input type="time" id="event-time" value="09:00" style="padding:6px 10px;font-size:13px;">
+        </div>
+        <button id="btn-save-event" class="btn btn-primary btn-sm">添加</button>
+        <button id="btn-cancel-event" class="btn btn-outline btn-sm">取消</button>
+      </div>
+    </div>
+
+    <!-- ② 信奥综合导航（动态渲染） -->
+    <div id="nav-links-container">
+      <div style="text-align:center;padding:40px;color:#86909c;">加载中...</div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>信奥导航站 · OIerLink | 信息学竞赛资源一站式导航</p>
+    <div class="footer-links">
+      <a href="https://mp.weixin.qq.com" target="_blank" rel="noopener">by「 公众号·莫要玩」</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/countdown.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
