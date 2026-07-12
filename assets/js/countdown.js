@@ -14,8 +14,7 @@
     { id: 'csp-s-first',  name: 'CSP-S 初赛',   date: '2026-09-19', time: '14:30', desc: '提高组·第一轮' },
     { id: 'csp-j-second', name: 'CSP-J 复赛',   date: '2026-10-31', time: '08:30', desc: '入门组·第二轮' },
     { id: 'csp-s-second', name: 'CSP-S 复赛',   date: '2026-10-31', time: '14:30', desc: '提高组·第二轮' },
-    { id: 'noi',          name: 'NOI 2026',     date: '2026-07-18', time: '09:00', desc: '全国决赛' },
-    { id: 'csp-reg',      name: '省选报名',     date: '2026-07-22', time: '09:00', desc: '各省报名截止' }
+    { id: 'noi',          name: 'NOI 2026',     date: '2026-07-18', time: '09:00', desc: '全国决赛' }
   ];
 
   // ====== 本地自定义赛事 ======
