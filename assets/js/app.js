@@ -17,6 +17,7 @@
   const NAV_ITEMS = [
     { id: 'home', name: '首页', icon: '🏠', href: 'index.html' },
     { id: 'news', name: '信奥新闻', icon: '📰', href: 'news.html' },
+    { id: 'share', name: '参赛分享', icon: '✍️', href: 'share.html' },
     { id: 'gzh', name: '公众号文章', icon: '📱', href: 'gzh.html' },
     { id: 'players', name: '信奥选手', icon: '🏅', href: 'https://oier.baoshuo.dev/oiers', external: true }
   ];
@@ -26,6 +27,7 @@
   let allNews = [];
   let allPlayers = [];
   let allGzh = [];
+  let allShare = [];
   let featuredGzh = [];
   let pendingSubmissions = [];
 
@@ -61,17 +63,19 @@
   }
 
   async function loadAllData() {
-    const [links, news, players, gzh, featured] = await Promise.all([
+    const [links, news, players, gzh, share, featured] = await Promise.all([
       loadJSON(CONFIG.dataBase + 'links.json'),
       loadJSON(CONFIG.dataBase + 'news.json'),
       loadJSON(CONFIG.dataBase + 'players.json'),
       loadJSON(CONFIG.dataBase + 'gzh.json'),
+      loadJSON(CONFIG.dataBase + 'share.json'),
       loadJSON(CONFIG.dataBase + 'gzh_featured.json')
     ]);
     if (links) allLinks = links;
     if (news) allNews = news;
     if (players) allPlayers = players;
     if (gzh) allGzh = gzh;
+    if (share) allShare = share;
     if (featured) featuredGzh = featured;
   }
 
@@ -368,6 +372,41 @@
     });
     html += '</ul>';
     listEl.innerHTML = html;
+  }
+
+  // ====== 参赛分享独立页渲染 ======
+  function renderSharePage() {
+    const containerId = 'page-content';
+    const existing = document.getElementById(containerId);
+    if (!existing) return;
+    if (!allShare || allShare.length === 0) {
+      existing.innerHTML = '<div style="text-align:center;padding:40px;color:#86909c;">暂无参赛分享</div>';
+      return;
+    }
+
+    let total = 0;
+    allShare.forEach(function(g){ total += g.articles.length; });
+
+    let html = '<div class="card"><div class="card-header"><h3>✍️ 参赛分享</h3><span style="font-size:13px;color:var(--text-secondary);">共 ' + total + ' 篇</span></div>';
+    html += '<p style="font-size:13px;color:var(--text-secondary);margin-bottom:20px;line-height:1.8;">数据来源：<a href="https://www.noi.cn/jlfx/" target="_blank" rel="noopener">NOI官网 · 交流分享栏目</a>，含 IOI（国际信息学奥林匹克）与 ISIJ（国际初中生信息学竞赛）中国队选手参赛总结。</p>';
+
+    allShare.forEach(function(group){
+      html += '<div style="margin-bottom:20px;">';
+      html += '<h4 style="font-size:15px;font-weight:700;color:var(--primary);margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border);">📅 ' + group.label + ' <span style="font-weight:400;font-size:12px;color:var(--text-secondary);">（' + group.articles.length + '篇）</span></h4>';
+      html += '<ul class="news-list">';
+      group.articles.forEach(function(item){
+        html += '<li class="news-item">';
+        html += '<span class="news-source">IOI/ISIJ</span>';
+        html += '<a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a>';
+        html += '<span class="news-date">' + item.date + '</span>';
+        html += '</li>';
+      });
+      html += '</ul>';
+      html += '</div>';
+    });
+
+    html += '</div>';
+    existing.innerHTML = html;
   }
 
   // ====== 信奥新闻独立页渲染 ======
@@ -709,6 +748,9 @@
     } else if (currentPage === 'news.html') {
       // 信奥新闻独立页
       renderNewsPage();
+    } else if (currentPage === 'share.html') {
+      // 参赛分享独立页
+      renderSharePage();
     } else if (currentPage === 'gzh.html') {
       // 公众号文章独立页
       renderGzhArticles();

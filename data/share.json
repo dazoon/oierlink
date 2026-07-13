@@ -1,0 +1,164 @@
+[
+  {
+    "year": "2025",
+    "label": "2025年",
+    "articles": [
+      {"title": "刘恒熙IOI2025参赛总结", "url": "https://www.noi.cn/jlfx/2025-09-20/848612.shtml", "date": "2025-09-20"},
+      {"title": "刘海峰IOI2025参赛总结", "url": "https://www.noi.cn/jlfx/2025-09-20/848611.shtml", "date": "2025-09-20"},
+      {"title": "陈昕阳IOI2025参赛总结", "url": "https://www.noi.cn/jlfx/2025-09-20/848655.shtml", "date": "2025-09-20"},
+      {"title": "范斯喆IOI2025参赛总结", "url": "https://www.noi.cn/jlfx/2025-09-20/848601.shtml", "date": "2025-09-20"}
+    ]
+  },
+  {
+    "year": "2024",
+    "label": "2024年",
+    "articles": [
+      {"title": "周康阳IOI2024参赛总结", "url": "https://www.noi.cn/jlfx/2024-09-25/830304.shtml", "date": "2024-09-25"},
+      {"title": "郭羽冲IOI2024参赛总结", "url": "https://www.noi.cn/jlfx/2024-09-25/830303.shtml", "date": "2024-09-25"},
+      {"title": "黄洛天IOI2024参赛总结", "url": "https://www.noi.cn/jlfx/2024-09-25/830302.shtml", "date": "2024-09-25"},
+      {"title": "沈吉滪IOI2024参赛总结", "url": "https://www.noi.cn/jlfx/2024-09-25/830301.shtml", "date": "2024-09-25"}
+    ]
+  },
+  {
+    "year": "2023",
+    "label": "2023年",
+    "articles": [
+      {"title": "许庭强IOI 2023参赛总结", "url": "https://www.noi.cn/jlfx/2023-09-13/795552.shtml", "date": "2023-09-13"},
+      {"title": "戚朗瑞IOI 2023参赛总结", "url": "https://www.noi.cn/jlfx/2023-09-13/795551.shtml", "date": "2023-09-13"},
+      {"title": "程思元IOI 2023参赛总结", "url": "https://www.noi.cn/jlfx/2023-09-13/795550.shtml", "date": "2023-09-13"},
+      {"title": "刘一平IOI 2023参赛总结", "url": "https://www.noi.cn/jlfx/2023-09-13/795549.shtml", "date": "2023-09-13"}
+    ]
+  },
+  {
+    "year": "2021",
+    "label": "2021年",
+    "articles": [
+      {"title": "虞皓翔IOI2021参赛总结", "url": "https://www.noi.cn/jlfx/2021-07-13/732397.shtml", "date": "2021-07-13"},
+      {"title": "钱易IOI2021参赛总结", "url": "https://www.noi.cn/jlfx/2021-07-13/732396.shtml", "date": "2021-07-13"},
+      {"title": "邓明扬IOI2021参赛总结", "url": "https://www.noi.cn/jlfx/2021-07-13/732395.shtml", "date": "2021-07-13"},
+      {"title": "代晨昕IOI2021参赛总结", "url": "https://www.noi.cn/jlfx/2021-07-13/732394.shtml", "date": "2021-07-13"},
+      {"title": "罗煜翔IOI2020参赛总结", "url": "https://www.noi.cn/jlfx/2021-04-08/725218.shtml", "date": "2021-04-08"},
+      {"title": "蒋明润IOI2020参赛总结", "url": "https://www.noi.cn/jlfx/2021-04-08/725217.shtml", "date": "2021-04-08"},
+      {"title": "王展鹏IOI2020参赛总结", "url": "https://www.noi.cn/jlfx/2021-04-08/725216.shtml", "date": "2021-04-08"},
+      {"title": "周雨扬IOI2020参赛总结", "url": "https://www.noi.cn/jlfx/2021-04-08/725215.shtml", "date": "2021-04-08"}
+    ]
+  },
+  {
+    "year": "2019",
+    "label": "2019年",
+    "articles": [
+      {"title": "杨骏昭IOI2019参赛总结", "url": "https://www.noi.cn/jlfx/2019-08-20/716221.shtml", "date": "2019-08-20"},
+      {"title": "钟子谦IOI2019参赛总结", "url": "https://www.noi.cn/jlfx/2019-08-20/716220.shtml", "date": "2019-08-20"},
+      {"title": "王修涵IOI2019参赛总结", "url": "https://www.noi.cn/jlfx/2019-08-13/716219.shtml", "date": "2019-08-13"},
+      {"title": "高嘉煊IOI2019参赛总结", "url": "https://www.noi.cn/jlfx/2019-08-13/716218.shtml", "date": "2019-08-13"},
+      {"title": "ISIJ2019参赛总结汇总（22名选手）", "url": "https://www.noi.cn/jlfx/2019-07-26/716217.shtml", "date": "2019-07-26"},
+      {"title": "金靖 ISIJ2019参赛总结", "url": "https://www.noi.cn/jlfx/2019-07-26/716217.shtml", "date": "2019-07-26"},
+      {"title": "曹蓉 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143318", "date": "2019-07-26"},
+      {"title": "常倪 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143319", "date": "2019-07-26"},
+      {"title": "常瑞年 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143320", "date": "2019-07-26"},
+      {"title": "崔隽章 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143321", "date": "2019-07-26"},
+      {"title": "丁晓漫 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143322", "date": "2019-07-26"},
+      {"title": "古鸣浩 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143323", "date": "2019-07-26"},
+      {"title": "管晏如 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143324", "date": "2019-07-26"},
+      {"title": "黄细光 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143325", "date": "2019-07-26"},
+      {"title": "冷静 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143326", "date": "2019-07-26"},
+      {"title": "冷滟泽 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143327", "date": "2019-07-26"},
+      {"title": "李吴松 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143328", "date": "2019-07-26"},
+      {"title": "罗恺 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143329", "date": "2019-07-26"},
+      {"title": "钱易 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143330", "date": "2019-07-26"},
+      {"title": "唐绍轩 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143331", "date": "2019-07-26"},
+      {"title": "王天 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143332", "date": "2019-07-26"},
+      {"title": "夏媛媛 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143333", "date": "2019-07-26"},
+      {"title": "徐淑君 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143334", "date": "2019-07-26"},
+      {"title": "闫卢昊 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143335", "date": "2019-07-26"},
+      {"title": "郁庭 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143336", "date": "2019-07-26"},
+      {"title": "赵明阳 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143337", "date": "2019-07-26"},
+      {"title": "郑路明 ISIJ2019参赛总结", "url": "https://www.noi.cn/ccf/contentcore/resource/download?ID=143338", "date": "2019-07-26"},
+      {"title": "陈江伦IOI2018参赛总结", "url": "https://www.noi.cn/jlfx/2019-06-12/716216.shtml", "date": "2019-06-12"},
+      {"title": "杨懋龙IOI2018参赛总结", "url": "https://www.noi.cn/jlfx/2019-06-11/716215.shtml", "date": "2019-06-11"},
+      {"title": "任轩笛IOI2018参赛总结", "url": "https://www.noi.cn/jlfx/2019-06-11/716214.shtml", "date": "2019-06-11"},
+      {"title": "朱震霆IOI2018参赛总结", "url": "https://www.noi.cn/jlfx/2019-06-11/716213.shtml", "date": "2019-06-11"}
+    ]
+  },
+  {
+    "year": "2018",
+    "label": "2018年",
+    "articles": [
+      {"title": "谢秋锋IOI2018总结（教练/领队）", "url": "https://www.noi.cn/jlfx/2018-09-28/716212.shtml", "date": "2018-09-28"},
+      {"title": "朱全民观察员IOI2017总结", "url": "https://www.noi.cn/jlfx/2018-09-28/716211.shtml", "date": "2018-09-28"},
+      {"title": "钟知闲IOI2017参赛总结", "url": "https://www.noi.cn/jlfx/2018-09-28/716210.shtml", "date": "2018-09-28"},
+      {"title": "杨家齐IOI2017参赛总结", "url": "https://www.noi.cn/jlfx/2018-09-28/716209.shtml", "date": "2018-09-28"},
+      {"title": "徐明宽IOI2017参赛总结", "url": "https://www.noi.cn/jlfx/2018-09-28/716208.shtml", "date": "2018-09-28"},
+      {"title": "毛啸IOI2017参赛总结", "url": "https://www.noi.cn/jlfx/2018-09-28/716207.shtml", "date": "2018-09-28"},
+      {"title": "袁浩天ISIJ2018参赛总结", "url": "https://www.noi.cn/jlfx/2018-07-12/716206.shtml", "date": "2018-07-12"},
+      {"title": "林凯风ISIJ2018参赛总结", "url": "https://www.noi.cn/jlfx/2018-07-12/716205.shtml", "date": "2018-07-12"},
+      {"title": "孙淇淇ISIJ2018参赛总结", "url": "https://www.noi.cn/jlfx/2018-07-12/716204.shtml", "date": "2018-07-12"},
+      {"title": "管晏如ISIJ2018参赛总结", "url": "https://www.noi.cn/jlfx/2018-07-12/716203.shtml", "date": "2018-07-12"},
+      {"title": "曹歆蕤ISIJ2018参赛总结", "url": "https://www.noi.cn/jlfx/2018-07-12/716202.shtml", "date": "2018-07-12"},
+      {"title": "高子翼ISIJ2018参赛总结", "url": "https://www.noi.cn/jlfx/2018-07-12/716201.shtml", "date": "2018-07-12"},
+      {"title": "史钋镭ISIJ2018总结（教练）", "url": "https://www.noi.cn/jlfx/2018-07-12/716200.shtml", "date": "2018-07-12"}
+    ]
+  },
+  {
+    "year": "2015",
+    "label": "2015年",
+    "articles": [
+      {"title": "刘研绎IOI2015参赛总结", "url": "https://www.noi.cn/jlfx/2015-09-10/716199.shtml", "date": "2015-09-10"},
+      {"title": "张恒捷IOI2015参赛总结", "url": "https://www.noi.cn/jlfx/2015-09-10/716198.shtml", "date": "2015-09-10"},
+      {"title": "卢啸尘IOI2015参赛总结", "url": "https://www.noi.cn/jlfx/2015-09-10/716197.shtml", "date": "2015-09-10"},
+      {"title": "杜瑜皓IOI2015参赛报告", "url": "https://www.noi.cn/jlfx/2015-09-10/716196.shtml", "date": "2015-09-10"},
+      {"title": "IOI2015解题报告（非参赛总结）", "url": "https://www.noi.cn/jlfx/2015-09-10/716195.shtml", "date": "2015-09-10"}
+    ]
+  },
+  {
+    "year": "2014",
+    "label": "2014年",
+    "articles": [
+      {"title": "沈洋IOI2014参赛总结", "url": "https://www.noi.cn/jlfx/2014-08-07/716191.shtml", "date": "2014-08-07"},
+      {"title": "IOI2014解题报告（非参赛总结）", "url": "https://www.noi.cn/jlfx/2014-08-07/716190.shtml", "date": "2014-08-07"},
+      {"title": "董宏华IOI2014参赛总结", "url": "https://www.noi.cn/jlfx/2014-08-07/716194.shtml", "date": "2014-08-07"},
+      {"title": "徐寅展IOI2014参赛总结", "url": "https://www.noi.cn/jlfx/2014-08-07/716193.shtml", "date": "2014-08-07"},
+      {"title": "俞鼎力IOI2014参赛总结", "url": "https://www.noi.cn/jlfx/2014-08-07/716192.shtml", "date": "2014-08-07"}
+    ]
+  },
+  {
+    "year": "2013",
+    "label": "2013年",
+    "articles": [
+      {"title": "乔明达IOI2013参赛总结", "url": "https://www.noi.cn/jlfx/2013-07-25/716189.shtml", "date": "2013-07-25"},
+      {"title": "许昊然IOI2013解题报告和参赛总结", "url": "https://www.noi.cn/jlfx/2013-07-25/716188.shtml", "date": "2013-07-25"}
+    ]
+  },
+  {
+    "year": "2010",
+    "label": "2010年",
+    "articles": [
+      {"title": "冯齐纬IOI2010参赛总结", "url": "https://www.noi.cn/jlfx/2010-09-06/716187.shtml", "date": "2010-09-06"},
+      {"title": "赖陆航IOI2010参赛总结", "url": "https://www.noi.cn/jlfx/2010-09-06/716186.shtml", "date": "2010-09-06"},
+      {"title": "潘宇超IOI2010参赛总结", "url": "https://www.noi.cn/jlfx/2010-09-06/716185.shtml", "date": "2010-09-06"},
+      {"title": "吴翼IOI2010参赛总结", "url": "https://www.noi.cn/jlfx/2010-09-06/716184.shtml", "date": "2010-09-06"}
+    ]
+  },
+  {
+    "year": "2009",
+    "label": "2009年",
+    "articles": [
+      {"title": "高逸涵IOI2009 Archery解题报告", "url": "https://www.noi.cn/jlfx/2009-10-08/716183.shtml", "date": "2009-10-08"},
+      {"title": "高逸涵IOI2009 Garage解题报告", "url": "https://www.noi.cn/jlfx/2009-10-08/716182.shtml", "date": "2009-10-08"},
+      {"title": "周而进IOI2009 解题报告", "url": "https://www.noi.cn/jlfx/2009-09-25/716181.shtml", "date": "2009-09-25"},
+      {"title": "漆子超IOI2009参赛总结", "url": "https://www.noi.cn/jlfx/2009-08-25/716180.shtml", "date": "2009-08-25"},
+      {"title": "高逸涵IOI2009参赛总结", "url": "https://www.noi.cn/jlfx/2009-08-25/716179.shtml", "date": "2009-08-25"},
+      {"title": "毛杰明IOI2009参赛总结", "url": "https://www.noi.cn/jlfx/2009-08-25/716178.shtml", "date": "2009-08-25"},
+      {"title": "周而进IOI2009参赛总结", "url": "https://www.noi.cn/jlfx/2009-08-25/716177.shtml", "date": "2009-08-25"}
+    ]
+  },
+  {
+    "year": "2008",
+    "label": "2008年",
+    "articles": [
+      {"title": "余林韵IOI2008参赛总结", "url": "https://www.noi.cn/jlfx/2008-10-15/716176.shtml", "date": "2008-10-15"},
+      {"title": "周冬IOI2008参赛总结", "url": "https://www.noi.cn/jlfx/2008-10-15/716175.shtml", "date": "2008-10-15"},
+      {"title": "IOI2008&APIO比赛心得", "url": "https://www.noi.cn/jlfx/2008-05-16/716174.shtml", "date": "2008-05-16"}
+    ]
+  }
+]
