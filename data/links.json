@@ -21,7 +21,11 @@
         {"name": "SPOJ", "url": "https://www.spoj.com", "desc": "国际经典题库"},
         {"name": "QOJ", "url": "https://qoj.ac", "desc": "高质量竞赛题库"},
         {"name": "UOJ", "url": "https://uoj.ac", "desc": "Universal OJ优维评测"},
-        {"name": "信息学奥赛一本通", "url": "http://ybt.ssoier.cn:8088/index.php", "desc": "经典信奥题库"}
+        {"name": "信息学奥赛一本通", "url": "http://ybt.ssoier.cn:8088/index.php", "desc": "经典信奥题库"},
+        {"name": "USACO", "url": "https://usaco.org", "desc": "美国信息学奥赛训练"},
+        {"name": "LeetCode", "url": "https://leetcode.cn", "desc": "算法面试刷题平台"},
+        {"name": "清华OJ", "url": "https://dsa.cs.tsinghua.edu.cn/oj/", "desc": "清华数据结构OJ平台"},
+        {"name": "ECNU OJ", "url": "https://acm.ecnu.edu.cn", "desc": "华东师大ACM在线评测"}
       ]
     },
     {
@@ -51,7 +55,9 @@
         {"name": "CSAcademy", "url": "https://csacademy.com/app/graph_editor", "desc": "图论图形编辑器"},
         {"name": "OIerDb", "url": "https://oier.baoshuo.dev", "desc": "选手数据库查询"},
         {"name": "Another Graph Editor", "url": "https://anacc22.github.io/another_graph_editor", "desc": "多功能图论编辑器"},
-        {"name": "洛谷题解格式化工具", "url": "https://tj.imken.dev/#/", "desc": "洛谷题解排版格式化"}
+        {"name": "洛谷题解格式化工具", "url": "https://tj.imken.dev/#/", "desc": "洛谷题解排版格式化"},
+        {"name": "Algorithm Visualizer", "url": "https://algorithm-visualizer.org", "desc": "算法动画可视化平台"},
+        {"name": "Big-O Cheat Sheet", "url": "https://www.bigocheatsheet.com", "desc": "算法复杂度速查表"}
       ]
     }
   ]
