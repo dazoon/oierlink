@@ -50,7 +50,8 @@
         {"name": "图论可视化", "url": "https://visualgo.net/en/graphds", "desc": "算法动画演示"},
         {"name": "CSAcademy", "url": "https://csacademy.com/app/graph_editor", "desc": "图论图形编辑器"},
         {"name": "OIerDb", "url": "https://oier.baoshuo.dev", "desc": "选手数据库查询"},
-        {"name": "Another Graph Editor", "url": "https://anacc22.github.io/another_graph_editor", "desc": "多功能图论编辑器"}
+        {"name": "Another Graph Editor", "url": "https://anacc22.github.io/another_graph_editor", "desc": "多功能图论编辑器"},
+        {"name": "洛谷题解格式化工具", "url": "https://tj.imken.dev/#/", "desc": "洛谷题解排版格式化"}
       ]
     }
   ]
