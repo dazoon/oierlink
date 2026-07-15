@@ -46,6 +46,7 @@
         {"name": "C++ Reference", "url": "https://en.cppreference.com", "desc": "C++标准库参考"},
         {"name": "USACO Guide", "url": "https://usaco.guide", "desc": "USACO训练指南"},
         {"name": "B站信奥教程", "url": "https://www.bilibili.com", "desc": "B站搜索信奥教程"},
+        {"name": "董晓算法（B站）", "url": "https://space.bilibili.com/517494241", "desc": "B站算法教学UP主"},
         {"name": "中国大学MOOC", "url": "https://www.icourse163.org", "desc": "算法与数据结构课程"},
         {"name": "51AC 信奥教学", "url": "https://51ac.com.cn", "desc": "系统化信奥教学"},
         {"name": "洛谷题单广场", "url": "https://www.luogu.com.cn/problem/list", "desc": "分类题单合集"},
