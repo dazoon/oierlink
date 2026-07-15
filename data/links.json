@@ -57,7 +57,8 @@
         {"name": "中国计算机学会NOI视频", "url": "http://www.ccfdl.cn/video/videoIndex.html?dataYear=&searchTerm=&seriesText=NOI&sort=date&_ack=1&pageNum_p=4", "desc": "CCF官方NOI系列视频"},
         {"name": "数字图书馆", "url": "http://www.ccfdl.cn/index.html?_ack=1", "desc": "CCF数字图书馆"},
         {"name": "GESP官网", "url": "https://gesp.ccf.org.cn", "desc": "CCF编程能力等级认证"},
-        {"name": "Dotcpp", "url": "https://www.dotcpp.com", "desc": "C语言/C++编程学习平台"}
+        {"name": "Dotcpp", "url": "https://www.dotcpp.com", "desc": "C语言/C++编程学习平台"},
+        {"name": "Hello 算法", "url": "https://www.hello-algo.com", "desc": "动画图解数据结构与算法"}
       ]
     },
     {
