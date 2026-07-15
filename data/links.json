@@ -28,6 +28,7 @@
         {"name": "Vijos", "url": "https://vijos.org", "desc": "经典中文OJ"},
         {"name": "Vjudge", "url": "https://vjudge.net", "desc": "多OJ聚合虚拟评测"},
         {"name": "WZOI", "url": "https://wzoi.cn", "desc": "温州中学OJ"},
+        {"name": "YACS", "url": "https://iai.sh.cn", "desc": "上海计算机学会竞赛平台"},
         {"name": "信息学奥赛一本通", "url": "http://ybt.ssoier.cn:8088/index.php", "desc": "经典信奥题库"},
         {"name": "牛客网", "url": "https://www.nowcoder.com", "desc": "竞赛+求职训练"},
         {"name": "洛谷", "url": "https://www.luogu.com.cn", "desc": "国内最大信奥OJ平台"},
@@ -54,7 +55,9 @@
         {"name": "CSP认证真题精讲", "url": "http://www.ccfdl.cn/video/videoIndex.html?dataYear=&searchTerm=&seriesText=CSP&sort=date&_ack=1&pageNum_p=1", "desc": "CCF官方CSP真题视频讲解"},
         {"name": "GESP认证真题精讲", "url": "http://www.ccfdl.cn/video/videoIndex.html?dataYear=&searchTerm=&seriesText=GESP&sort=date&_ack=1&pageNum_p=1", "desc": "CCF官方GESP真题视频讲解"},
         {"name": "中国计算机学会NOI视频", "url": "http://www.ccfdl.cn/video/videoIndex.html?dataYear=&searchTerm=&seriesText=NOI&sort=date&_ack=1&pageNum_p=4", "desc": "CCF官方NOI系列视频"},
-        {"name": "数字图书馆", "url": "http://www.ccfdl.cn/index.html?_ack=1", "desc": "CCF数字图书馆"}
+        {"name": "数字图书馆", "url": "http://www.ccfdl.cn/index.html?_ack=1", "desc": "CCF数字图书馆"},
+        {"name": "GESP官网", "url": "https://gesp.ccf.org.cn", "desc": "CCF编程能力等级认证"},
+        {"name": "Dotcpp", "url": "https://www.dotcpp.com", "desc": "C语言/C++编程学习平台"}
       ]
     },
     {
