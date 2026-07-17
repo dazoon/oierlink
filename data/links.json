@@ -75,7 +75,8 @@
         {"name": "洛谷题解格式化工具", "url": "https://tj.imken.dev/#/", "desc": "洛谷题解排版格式化"},
         {"name": "Algorithm Visualizer", "url": "https://algorithm-visualizer.org", "desc": "算法动画可视化平台"},
         {"name": "Big-O Cheat Sheet", "url": "https://www.bigocheatsheet.com", "desc": "算法复杂度速查表"},
-        {"name": "MathDF", "url": "https://mathdf.com/cn/", "desc": "数学分步计算器"}
+        {"name": "MathDF", "url": "https://mathdf.com/cn/", "desc": "数学分步计算器"},
+        {"name": "数字帝国", "url": "https://zh.numberempire.com", "desc": "中文数学工具箱"}
       ]
     }
   ]
